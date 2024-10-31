@@ -40,6 +40,9 @@ Plug 'hrsh7th/cmp-vsnip'                 " Snippet integration with nvim-cmp
 "Colorschemes
 Plug 'vim-airline/vim-airline-themes'
 
+"Tree explorer
+Plug 'scrooloose/nerdtree'
+
 call plug#end()
 
 "___________________________________________"
@@ -51,7 +54,7 @@ call plug#end()
 "        \/            \/        /_____/ 		"
 "___________________________________________"
 
-" Load Lua configuration file
+"Load Lua configuration file
 lua require('cmp_config')
 
 "Show line numbers
@@ -61,8 +64,9 @@ set number
 set updatetime=100
 set signcolumn=auto
 
-"colorscheme C64
+"Airline_theme
 let g:airline_theme='bubblegum'
 
-
+"Tree explorer keybind
+nnoremap <C-n> :NERDTree<CR>
 
