@@ -68,5 +68,5 @@ set signcolumn=auto
 let g:airline_theme='bubblegum'
 
 "Tree explorer keybind
-nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-b> :NERDTreeToggle<CR>
 
