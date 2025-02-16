@@ -70,3 +70,9 @@ let g:airline_theme='bubblegum'
 "Tree explorer keybind
 nnoremap <C-b> :NERDTreeToggle<CR>
 
+"Default transparency
+highlight Normal guibg=none
+highlight NonText guibg=none
+highlight Normal ctermbg=none
+highlight NonText ctermbg=none
+
