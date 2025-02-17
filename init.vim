@@ -76,3 +76,5 @@ highlight NonText guibg=none
 highlight Normal ctermbg=none
 highlight NonText ctermbg=none
 
+"Use system clipboard
+set clipboard=unnamedplus
