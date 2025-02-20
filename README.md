@@ -1,6 +1,9 @@
 ### About
-- Create directory ~/.config/nvim
-- Clone the repo & move it's content to ~/.config/nvim
+- Clone the repo
+- Run:
+```
+stow -v -t $HOME nvim
+```
 - Install [vim-plug](https://github.com/junegunn/vim-plug)
 - Open nvim and run :PlugInstall
 - Reopen nvim
